@@ -1,6 +1,6 @@
 <?php
 
-include_once("Encabezado.php"); 
+include_once("encabezado.php"); 
 
 session_start();
 if(isset($_SESSION['usuario_id'])){
@@ -19,7 +19,7 @@ if(isset($_SESSION['usuario_id'])){
     <link rel="stylesheet" href="css/css_footer.css">
 </head>
 <body>
-    <?php include_once("Encabezado.php"); ?>
+    <?php include_once("encabezado.php"); ?>
     
     <main>
         <div class="login-container">

@@ -13,7 +13,7 @@ body {
     flex-direction: column;
 }
 
-/* Header */
+/* ===== HEADER & NAV ===== */
 header {
     background-color: #EFE7CF;
     padding: 10px 20px;
@@ -23,14 +23,8 @@ header {
     border-bottom: 2px solid #0047BB;
 }
 
-.logo {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #0047BB;
-}
-
 .logo-imagen {
-    width: 180px; /* Ajusta este valor según necesites */
+    width: 180px;
     height: auto;
     transition: transform 0.3s;
 }
@@ -42,28 +36,41 @@ header {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    transition: background 0.3s;
 }
 
-/* Nav */
+.login-link a:hover {
+    background-color: #003399;
+}
+
 nav {
-    background: #0047BB;
-    padding: 10px;
+    background-color: #0047BB;
+    padding: 12px 0;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
 }
 
 nav a {
-    color: white;
+    color: white !important;
+    font-size: 1.1em;
     text-decoration: none;
-    font-size: 1.2em;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background 0.3s;
 }
 
-/* Main (Contenido común) */
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ===== MAIN CONTENT ===== */
 main {
     flex: 1;
     max-width: 1200px;
@@ -72,7 +79,7 @@ main {
     width: 90%;
 }
 
-/* Footer */
+/* ===== FOOTER ===== */
 footer {
     background-color: #0047BB;
     color: white;
@@ -83,68 +90,114 @@ footer {
 
 footer a {
     color: #f1c40f;
+    transition: color 0.3s;
 }
 
-/* Estilos Sección Acerca de */
-.hero-section {
-    position: relative;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
+footer a:hover {
+    color: #FFD700;
 }
 
-.hero-bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url(../img/textura-talavera.jpg) center/cover;
-    opacity: 0.15;
+/* ===== INDEX ===== */
+.index h1 {
+    text-align: center;
+    color: #5C3A21;
+    font-size: 2.5em;
+    margin-bottom: 25px;
 }
 
-.hero-section h1 {
-    position: relative;
-    color: #5C3A21; /* Marrón oscuro */
-    font-size: 3.5em;
-    text-shadow: 2px 2px 4px rgba(255,255,255,0.5);
-}
-
-.contenedor-texto {
+.intro {
+    font-size: 1.1em;
+    line-height: 1.6;
     max-width: 800px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.btn-catalogo {
+    display: inline-block;
+    background: #0047BB;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-catalogo:hover {
+    background: #5C3A21;
+}
+
+/* ===== ACERCA DE ===== */
+.titulo-acerca {
+    text-align: center;
+    color: #5C3A21;
+    font-size: 2.5em;
+    margin: 40px 0;
+}
+
+.contenido-acerca {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.contenido-acerca p {
+    margin-bottom: 20px;
+}
+
+/* ===== CATÁLOGO ===== */
+.contenedor-catalogo {
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.destacado {
-    font-size: 1.2em;
-    color: #0047BB; /* Azul corporativo */
-    border-left: 4px solid #EFE7CF;
-    padding-left: 15px;
-    margin: 25px 0;
+.filtro-categoria {
+    margin-bottom: 30px;
+    text-align: center;
 }
 
-/* Acordeón Bootstrap Personalizado */
-.acordeon {
-    background: #FFF;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    margin: 30px 0;
+.filtro-categoria select {
+    padding: 8px 12px;
+    border: 1px solid #0047BB;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.producto {
+    background: white;
     padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.acordeon h3 {
-    color: #5C3A21;
-    cursor: pointer;
-    transition: all 0.3s;
+.producto img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
 
-.acordeon h3:hover {
-    color: #0047BB;
-}
+/* ===== MEDIA QUERIES ===== */
+@media (max-width: 768px) {
+    nav ul {
+        gap: 20px;
+        flex-direction: column;
+    }
 
-.contenido-acordeon {
-    display: none; /* Activado con Bootstrap JS */
-    padding-top: 10px;
-    border-top: 1px solid #EFE7CF;
+    .producto {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
 }

@@ -1,30 +1,52 @@
-<?php include_once("Encabezado.php");?>
+<?php include_once("encabezado.php"); ?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Barro y Alma</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Hoja principal -->
+    <link rel="stylesheet" href="css/catalog.css"> <!-- Estilos específicos -->
+</head>
+<body>
+    <main>
+        <div class="contenedor-catalogo">
+            
+            <!-- Selector de categorías -->
+            <div class="filtro-categoria">
+                <label>Categoría:</label>
+                <select name="categorias">
+                    <option value="">Todas</option>
+                    <option value="macetas">Bisuteria</option>
+                    <option value="platos">Cocina</option>
+                    <option value="oaxaquenos">Hogar</option>
+                </select>
+            </div>
 
+            <!-- Productos -->
+            <div class="grid-productos">
+                
+                <div class="producto">
+                    <img src="img/articulos/bisuteria/Cilindro_Azul_Cobalto.webp" alt="Cilindro Azul">
+                    <h3>Cilindros Azules</h3>
+                    <p>$100</p>
+                </div>
 
-<div class="catalogo">
+                <div class="producto">
+                    <img src="img/articulos/cocina/Cazuela Chica.webp" alt="Platos de Talavera">
+                    <h3>Cazuela Chica</h3>
+                    <p>$150</p>
+                </div>
 
-      <div class="selector">
-         <p>Categoría:</p>
-         <select name="categorias" id="categorias"></select>
-      </div>
+                <div class="producto">
+                    <img src="img/articulos/hogar/Florero Ondas Azul Cobalto.webp" alt="Macetas Artesanales">
+                    <h3>Florero Azul Cobalto</h3>
+                    <p>$300</p>
+                </div>
 
-       <div class="productos">
-            <img src="../img/Charlie.jpg" alt="Charlie">
-            <h3>Oaxaqueños</h3>
-            <p>$200</p>
-       </div>
-
-       <div class="productos">
-          <img src="https://manati.mx/wp-content/uploads/2020/12/Talavera-poblana-patrimonio--768x683.png" alt="platos">
-          <h3>Platos</h3>
-          <p>$300</p>
-       </div>
-
-       <div class="productos">
-          <img src="https://media.admagazine.com/photos/64fbfad15d8d918e04f83630/16:9/w_2560%2Cc_limit/talavera.jpg" alt="macetas">
-          <h3>Macetas</h3>
-          <p>500</p>
-       </div>       
-</div>
-
-<?php include_once("pie.php");?>
+            </div>
+        </div>
+    </main>
+    <?php include_once("pie.php"); ?>
+</body>
+</html>
