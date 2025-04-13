@@ -7,21 +7,16 @@
     <title>Encabezado</title>
 </head>
 <body>
-        <!-- Encabezado -->
-        <header>
+    <header>
         <div class="logo">Barro y Alma</div>
         <div><a href="login.php">Iniciar sesión</a></div>
-		
     </header>
-    
-        <!-- Menú de navegación -->
-        <nav>
+    <nav>
         <ul>
             <li><a href="index.php">Inicio</a></li>
-            <li><a href="#">Servicios</a></li>
+            <li><a href="Catalogo.php">Catálogo</a></li>
         </ul>
     </nav>
-
 
 </body>
 </html>

@@ -9,7 +9,7 @@
 <body>
     <!-- Pie de página -->
     <footer>
-    <p>&copy; 2025 Mi Empresa | <a href="#">Aviso de Privacidad</a></p>
+        <p>&copy; 2025 Barro y Alma | <a href="#">Aviso de Privacidad</a></p>
     </footer>
 
 </body>

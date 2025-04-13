@@ -1,0 +1,21 @@
+/* ===== ESTILOS DE CATÁLOGO ===== */
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+}

@@ -1,4 +1,7 @@
 <?php
+
+include_once("Encabezado.php"); 
+
 session_start();
 if(isset($_SESSION['usuario_id'])){
     header("Location: restringida.php");

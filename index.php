@@ -1,14 +1,18 @@
-<?php include_once("Encabezado.php"); ?>
-
-    <link rel="C:\Primavera 2025\desarrollo web\Proyecto\Catalogo.php" href="Catalogo.php">
-    <link rel="C:\Primavera 2025\desarrollo web\Proyecto\index.php" href="header.php">
-    <link rel="C:\Primavera 2025\desarrollo web\Proyecto\pie.php" href="pie.php">
-    <link rel="stylesheet" href="css/css_index.css">
-    <!-- Contenido principal -->
+<?php include_once("encabezado.php"); ?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barro y Alma</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
     <main>
         <h1>Bienvenido a Barro y Alma</h1>
-        <p>Empresa encargada de vender productos de talavera y niños oaxaqueños</p>
-        <p>De click aqui para seguir al catalogo| <a link href="Catalogo.php">Catalogo</a></p>
+        <p>Empresa encargada de vender productos de talavera y artículos oaxaqueños</p>
+        <p>Haz clic aquí para ir al catálogo: <a href="catalogo.php">Catálogo</a></p>
     </main>
-
-<?php include_once("pie.php"); ?>
+    <?php include_once("pie.php"); ?>
+</body>
+</html>

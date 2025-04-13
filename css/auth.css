@@ -1,0 +1,17 @@
+/* ===== ESTILOS DE AUTENTICACIÓN ===== */
+.auth-container {
+    max-width: 400px;
+    width: 90%;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0047BB;
+}
+
+/* ... (agregar estilos específicos del formulario) */
