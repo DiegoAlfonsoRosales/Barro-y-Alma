@@ -201,3 +201,20 @@ footer a:hover {
         margin: 0 auto;
     }
 }
+
+/* ===== CARRUSEL ===== */
+.carousel-item img {
+    border-radius: 10px;
+    height: 400px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 250px;
+    }
+
+    .text-md-start {
+        text-align: center !important;
+    }
+}

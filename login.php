@@ -1,13 +1,12 @@
 <?php
 
-include_once("encabezado.php"); 
-
 session_start();
 if(isset($_SESSION['usuario_id'])){
     header("Location: restringida.php");
     exit();
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>

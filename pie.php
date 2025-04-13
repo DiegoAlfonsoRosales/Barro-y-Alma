@@ -6,8 +6,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>pie</title>
 </head>
-
-<!-- Pie de página -->
 <footer>
     <p>&copy; 2025 Barro y Alma | <a href="#">Aviso de Privacidad</a></p>
 </footer>
