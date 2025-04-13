@@ -8,13 +8,24 @@
 </head>
 <body>
     <header>
-        <div class="logo">Barro y Alma</div>
-        <div><a href="login.php">Iniciar sesión</a></div>
+        <div class="logo">
+            <a href="index.php">
+                <img 
+                    src="img/texto_sin_fondo.png" 
+                    alt="Logo Barro y Alma"
+                    class="logo-imagen"
+                >
+            </a>
+        </div>
+        <div class="login-link">
+            <a href="login.php">Iniciar sesión</a>
+        </div>
     </header>
     <nav>
         <ul>
             <li><a href="index.php">Inicio</a></li>
-            <li><a href="Catalogo.php">Catálogo</a></li>
+            <li><a href="catalogo.php">Catálogo</a></li>
+            <li><a href="acerca.php">Acerca de</a></li>
         </ul>
     </nav>
 

@@ -9,7 +9,8 @@
 </head>
 <body>
     <main>
-        <h1>Bienvenido a Barro y Alma</h1>
+        <h1>Bienvenido a Barro y Alma
+        </h1>
         <p>Empresa encargada de vender productos de talavera y artículos oaxaqueños</p>
         <p>Haz clic aquí para ir al catálogo: <a href="catalogo.php">Catálogo</a></p>
     </main>
