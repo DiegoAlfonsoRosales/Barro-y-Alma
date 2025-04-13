@@ -1,21 +1,25 @@
 /* HEADER */
 header {
     background-color: #EFE7CF;
-    color: EFE7CF;
+    color: #333;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/*
-div {
-    border: 1px solid white;
-}
-*/
 .logo {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+header a {
+    color: #333;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 /* NAV - Menú de navegación */
@@ -28,6 +32,8 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {

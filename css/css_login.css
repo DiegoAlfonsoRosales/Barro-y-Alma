@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;  /* Fondo claro para contraste con el formulario */
+    background-color: #EFE7CF;  /* Fondo claro para contraste con el formulario */
 }
 
 /* Contenedor principal flexible */
@@ -23,7 +23,7 @@ main {
     max-width: 400px;          /* Ancho máximo para buena legibilidad */
     width: 100%;               /* Ocupa el 100% del espacio disponible hasta el máximo */
     padding: 30px;             /* Espaciado interno generoso */
-    background-color: #EFE7CF;  /* Color de fondo que coincide con el header */
+    background-color: #0047BB;  /* Color de fondo que coincide con el header */
     border-radius: 8px;        /* Bordes redondeados para suavizar el diseño */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra sutil para efecto de elevación */
     border: 1px solid #ddd;    /* Borde sutil para definición */

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    background-image: url('https://media.admagazine.com/photos/64fbfad15d8d918e04f83630/16:9/w_2560%2Cc_limit/talavera.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap; /*Los que no quepan en la linea, los mueve para abajo*/
+    gap: 16px;
+    padding: 16px;
+    justify-content: flex-start;
+}
+
+.productos {
+    background-color: cornflowerblue;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 12px;
+    width: calc(25% - 16px);/*Es el 25% del tamaño de la pantalla menos n cantidad de pixeles*/
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.productos p {
+    margin: 12px 0 8px 0;
+}
+
+.productos img{
+    max-width: 100%;
+}
+
+/*media query*/
+@media (max-width: 1200px){
+    .productos{
+        width: calc(33.333% - 16px);
+    }
+}
+
+@media (max-width: 768px){
+    .productos{
+        width: calc(50% - 16px);
+    }
+}
+
+@media (max-width: 480px){
+    .productos{
+        width: 100%;
+    }
+}

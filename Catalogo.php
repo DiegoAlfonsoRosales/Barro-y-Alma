@@ -1,14 +1,18 @@
 <?php include_once("Encabezado.php");?>
 
-
+<link rel="stylesheet" href="css/css_catalogo.css">
 <div class="catalogo">
 
-      <div class="selector">
-         <p>Categoría:</p>
-         <select name="categorias" id="categorias"></select>
+      <div>
+         Categoría: <select class="select-field" name="categorias" >
+            <option value="">*Categoria</option>
+            <option value="1">Macetas</option>
+            <option value="0">Platos</option>
+            <option value="2">Oaxaqueños</option>
+         </select>
       </div>
 
-       <div class="productos">
+      <div class="productos">
             <img src="../img/Charlie.jpg" alt="Charlie">
             <h3>Oaxaqueños</h3>
             <p>$200</p>
@@ -23,7 +27,7 @@
        <div class="productos">
           <img src="https://media.admagazine.com/photos/64fbfad15d8d918e04f83630/16:9/w_2560%2Cc_limit/talavera.jpg" alt="macetas">
           <h3>Macetas</h3>
-          <p>500</p>
+          <p>$500</p>
        </div>       
 </div>
 
