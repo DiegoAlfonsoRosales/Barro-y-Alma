@@ -17,9 +17,9 @@
                 <label>Categoría:</label>
                 <select name="categorias">
                     <option value="">Todas</option>
-                    <option value="macetas">Bisuteria</option>
-                    <option value="platos">Cocina</option>
-                    <option value="oaxaquenos">Hogar</option>
+                    <option value="bisuteria">Bisuteria</option>
+                    <option value="cocina">Cocina</option>
+                    <option value="hogar">Hogar</option>
                 </select>
             </div>
 
