@@ -1,4 +1,4 @@
-<?php include_once("encabezado.php"); ?>
+<?php include_once("Encabezado.php"); ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

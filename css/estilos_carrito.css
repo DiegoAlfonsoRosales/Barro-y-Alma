@@ -1,0 +1,27 @@
+.carrito-container {
+  padding: 3rem 0;
+  background: #EFE7CF;
+  min-height: 100vh;
+}
+
+.carrito-container h1 {
+  color: #5C3A21;
+  border-bottom: 2px solid #0047BB;
+  padding-bottom: 1rem;
+}
+
+.table th {
+  background-color: #0047BB;
+  color: white;
+}
+
+.btn-success {
+  background-color: #0047BB !important;
+  border: none;
+  transition: all 0.3s;
+}
+
+.btn-success:hover {
+  background-color: #003399 !important;
+  transform: translateY(-2px);
+}
